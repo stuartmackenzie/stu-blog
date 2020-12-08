@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { pageview } from "../lib/cms";
 
 import "../styles/globals.sass";
-import "@zypto/next-ui/dist/index.css";
+// import "@zypto/next-ui/dist/index.css";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
