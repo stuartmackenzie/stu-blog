@@ -1,4 +1,5 @@
 import Head from "next/head";
+
 import { getPage, getPostIds, getPostById } from "../../lib/cms";
 
 import Page from "../../components/Page/Page";

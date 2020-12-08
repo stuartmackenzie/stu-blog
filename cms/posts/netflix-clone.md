@@ -21,7 +21,7 @@ yarn add react-markdown
 
 Once installed, you can now parse the markdown content and pass chunks to your components:
 
-```js
+```javascript
 import rmd from "react-markdown";
 
 const parseContent = (content) => {
