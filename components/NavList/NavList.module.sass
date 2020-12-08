@@ -1,0 +1,41 @@
+.navlist
+  position: relative
+
+.list
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: space-around
+
+.item
+  position: relative
+
+.link
+  position: relative
+  text-decoration: none
+  color: var(--main-color)
+  margin: 0 1rem
+
+  &:hover, &.active
+    color: #8dd6f9
+
+@media (max-width: 600px)
+  .navlist
+    position: fixed
+    top: 50px
+    bottom: 0
+    width: 30vw
+    right: -30vw
+    z-index: 999
+    background-color: #101619
+    transition: right 300ms ease-in-out
+
+    &.open
+      right: 0
+
+    .list
+      flex-direction: column
+
+    .item
+      text-align: center
+      margin: 0.5rem 0

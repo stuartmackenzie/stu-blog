@@ -1,0 +1,37 @@
+{
+  "name": "Stuart MacKenzie",
+  "brand": "Stu's Code Lab",
+  "description": "Stuart Mackenzie Lab",
+  "title": "Stuart MacKenzie Lab",
+  "ogImage": {
+    "theme": "light",
+    "md": 0,
+    "fontSize": "75px",
+    "images": "https://assets.vercel.com/image/upload/front/assets/design/nextjs-black-logo.svg"
+  },
+  "email": "stu@stumackenzie.com",
+  "youtube": {
+    "username": "ninjs",
+    "uri": "https://www.youtube.com/channel/UCmr_ZHnPamcaAz2In24Bfqw"
+  },
+  "twitter": {
+    "username": "stuy_mackenzie",
+    "uri": "https://twitter.com/stuy_mackenzie"
+  },
+  "dev": {
+    "username": "stuartmackenzie",
+    "uri": "https://dev.to/stuartmackenzie"
+  },
+  "coffee": {
+    "username": "",
+    "uri": "#"
+  },
+  "nav": {
+    "items": [
+      { "href": "/", "text": "Home" },
+      { "href": "/posts", "text": "Posts" },
+      { "href": "/projects", "text": "Projects" },
+      { "href": "/videos", "text": "Videos" }
+    ]
+  }
+}
